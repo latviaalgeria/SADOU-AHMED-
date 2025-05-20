@@ -30,8 +30,8 @@ const Services = () => {
       icon: <Users size={40} />
     },
     {
-      title: "Vente de produits phytosanitaires adaptés",
-      description: "Une fois le diagnostic réalisé, nous proposons les produits les plus adaptés à vos besoins. Notre gamme comprend des produits de haute qualité, similaires à ceux des grandes marques comme Bayer, Syngénta, Profert, Casap, SRID, Agrichem et bien d'autres. En tant que premier distributeur, nous assurons des prix compétitifs et un stock rigoureusement sélectionné pour répondre aux exigences des agriculteurs d’aujourd’hui.",
+      title: "Vente de solutions phytosanitaires adaptés",
+      description: "Une fois le diagnostic réalisé, nous vous apportons les solutions les plus adaptées à vos besoins. Notre gamme comprend des produits originaux et de haute qualité issus de grandes marques internationales telles que Bayer, Syngenta, BASF, FMC. Nous collaborons également avec des fournisseurs reconnus comme Profect, Casap, SRID, Agrichem et bien d'autres. En tant que distributeur direct, nous garantissons des prix compétitifs et un stock rigoureusement sélectionné pour répondre aux exigences des agriculteurs modernes.",
       icon: <BarChart size={40} />
     }
   ];
