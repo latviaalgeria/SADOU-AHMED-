@@ -25,17 +25,19 @@ const About = () => {
             <p className="text-gray-600 mb-6">
   <strong>EURL Phyto Safety</strong> est une entreprise algérienne basée à <strong>Aïn Defla</strong> dédiée à <strong>l’accompagnement technique des agriculteurs</strong> et au <strong>diagnostic phytosanitaire</strong>. Dirigée par <strong>l'Ingénieur d'État SADOU AHMED</strong>, notre mission est de :<br /><br />
 
+ 
   <strong>Renforcer les compétences</strong> des agriculteurs algériens pour améliorer qualité et rendement.<br /><br />
 
   <strong>Apporter les dernières avancées scientifiques</strong> sur le terrain grâce à des visites régulières et des recommandations concrètes.<br /><br />
 
-  <strong>Mettre en œuvre des programmes de formation continue</strong> et des ateliers sur :<br /><br />
+  <strong>Mettre en œuvre des journées techniques</strong> en collaboration avec des sociétés multinationales (Bayer, FMC, BASF, Syngenta, Corteva…) et des instituts techniques et étatiques (INPV, ITGC, OAC…), ainsi que des ateliers sur :<br /><br />
 
   – la lutte raisonnée contre les maladies et ravageurs<br />
   – la nutrition des plantes et la fertilisation<br />
   – l’irrigation moderne et durable<br />
-  – la sécurité dans la manipulation des produits phytosanitaires
+  – la sécurité et les bonnes pratiques dans la manipulation, le stockage et l'application des produits de protection des cultures
 </p>
+
             
             <p className="text-gray-600 mb-6">
               Notre entreprise s'est développée avec une vision claire : devenir le partenaire de confiance des agriculteurs en leur offrant non seulement des produits de qualité, mais aussi un accompagnement personnalisé pour optimiser leurs rendements .
