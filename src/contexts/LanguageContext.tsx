@@ -17,23 +17,23 @@ const translations = {
     'nav.contact': 'Contact',
     
     // Hero
-    'hero.title': 'Compétences, expérience et solutions pour l'agriculture moderne',
-    'hero.description': 'Nous accompagnons les agriculteurs algériens avec des conseils techniques personnalisés, un suivi de terrain, et des produits phytosanitaires de qualité.',
+    'hero.title': "Compétences, expérience et solutions pour l'agriculture moderne",
+    'hero.description': "Nous accompagnons les agriculteurs algériens avec des conseils techniques personnalisés, un suivi de terrain, et des produits phytosanitaires de qualité.",
     'hero.cta': 'Contactez-nous',
     
     // Services
     'services.title': 'Nos Services',
-    'services.subtitle': 'Chez EURL Phyto Safety, nous ne nous contentons pas de vendre des produits — nous bâtissons des partenariats techniques durables avec les agriculteurs. Notre approche repose sur trois étapes clés : diagnostic, accompagnement, puis solution par produit adapté.',
+    'services.subtitle': "Chez EURL Phyto Safety, nous ne nous contentons pas de vendre des produits — nous bâtissons des partenariats techniques durables avec les agriculteurs. Notre approche repose sur trois étapes clés : diagnostic, accompagnement, puis solution par produit adapté.",
     'services.card1.title': 'Conseil et accompagnement technique personnalisé',
-    'services.card1.description': 'Sous la direction de l'Ingénieur d'État SADOU AHMED, notre équipe accompagne les agriculteurs tout au long de leur campagne agricole, depuis l'analyse des besoins jusqu'à la mise en place de protocoles de traitement, en passant par le suivi de terrain et des conseils agronomiques adaptés aux réalités locales.',
+    'services.card1.description': "Sous la direction de l'Ingénieur d'État SADOU AHMED, notre équipe accompagne les agriculteurs tout au long de leur campagne agricole, depuis l'analyse des besoins jusqu'à la mise en place de protocoles de traitement, en passant par le suivi de terrain et des conseils agronomiques adaptés aux réalités locales.",
     'services.card2.title': 'Diagnostic phytosanitaire et recommandations ciblées',
     'services.card2.description': 'Nous examinons vos cultures pour identifier les problèmes et proposons des solutions adaptées pour améliorer leur santé et leur rendement.',
     'services.card3.title': 'Solutions agricoles adaptées à vos besoins',
-    'services.card3.description': 'Une fois le diagnostic réalisé, nous vous apportons les solutions les plus adaptées à vos besoins. Notre gamme comprend des produits originaux et de haute qualité issus de grandes marques multinationales telles que Bayer, Syngenta,Corteva, BASF, FMC. Nous collaborons également avec des fournisseurs reconnus comme Profect, Casap, SRID, Agrichem et bien d'autres. En tant que distributeur direct, nous garantissons des prix compétitifs et un stock rigoureusement sélectionné pour répondre aux exigences des agriculteurs modernes.',
+    'services.card3.description': "Une fois le diagnostic réalisé, nous vous apportons les solutions les plus adaptées à vos besoins. Notre gamme comprend des produits originaux et de haute qualité issus de grandes marques multinationales telles que Bayer, Syngenta,Corteva, BASF, FMC. Nous collaborons également avec des fournisseurs reconnus comme Profect, Casap, SRID, Agrichem et bien d'autres. En tant que distributeur direct, nous garantissons des prix compétitifs et un stock rigoureusement sélectionné pour répondre aux exigences des agriculteurs modernes.",
     
     // About
     'about.title': 'À propos de nous',
-    'about.experience': '10+ années d'expertise',
+    'about.experience': "10+ années d'expertise",
     'about.description': 'EURL Phyto Safety est une entreprise algérienne basée à Aïn Defla dédiée à l'accompagnement technique des agriculteurs et au diagnostic phytosanitaire.',
     
     // Contact
@@ -45,7 +45,7 @@ const translations = {
     'contact.form.message': 'Message',
     'contact.form.submit': 'Envoyer',
     'contact.form.success': 'Votre message a été envoyé avec succès.',
-    'contact.hours.title': 'Horaires d'ouverture',
+    'contact.hours.title': "Horaires d'ouverture",
     'contact.hours.weekdays': 'Du samedi au jeudi : 8h00 - 18h00',
     'contact.hours.friday': 'Vendredi : Fermé',
     
