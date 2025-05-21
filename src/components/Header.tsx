@@ -1,9 +1,12 @@
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Languages } from 'lucide-react';
+import { useLanguage } from '../contexts/LanguageContext';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,6 +29,13 @@ const Header = () => {
     }
   };
 
+  const navItems = [
+    { id: 'home', label: t('nav.home') },
+    { id: 'services', label: t('nav.services') },
+    { id: 'about', label: t('nav.about') },
+    { id: 'contact', label: t('nav.contact') }
+  ];
+
   return (
     <header 
       className={`fixed w-full z-50 transition-all duration-300 ${
@@ -41,26 +51,27 @@ const Header = () => {
               className="h-12 md:h-16 w-auto"
             />
             <p className="text-sm md:text-lg font-bold text-green-600 ml-2">
-  Votre partenaire / Services et développement agricoles
-</p>
+              {t('footer.tagline')}
+            </p>
           </div>
           
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
-            {['home', 'services', 'about', 'contact'].map((item) => (
-              <button 
-                key={item}
-                onClick={() => scrollToSection(item)}
-                className={`text-sm uppercase font-medium transition-colors hover:text-green-600 ${
-                  isScrolled ? 'text-green-800' : 'text-white'
-                }`}
-              >
-                {item.charAt(0).toUpperCase() + item.slice(1)}
-              </button>
-            ))}
-          </nav>
+          <div className="hidden md:flex items-center space-x-8">
+            <nav className="flex space-x-8">
+              {navItems.map((item) => (
+                <button 
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
+                  className={`text-sm uppercase font-medium transition-colors hover:text-green-600 ${
+                    isScrolled ? 'text-green-800' : 'text-white'
+                  }`}
+                >
+                  {item.label}
+                </button>
+              ))}
+            </nav>
+            <LanguageSwitcher />
+          </div>
           
-          {/* Mobile Navigation Toggle */}
           <button 
             className="md:hidden text-green-800"
             onClick={() => setIsOpen(!isOpen)}
@@ -70,20 +81,22 @@ const Header = () => {
         </div>
       </div>
       
-      {/* Mobile Navigation Menu */}
       {isOpen && (
         <div className="md:hidden bg-white shadow-lg">
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
-              {['home', 'services', 'about', 'contact'].map((item) => (
+              {navItems.map((item) => (
                 <button
-                  key={item}
-                  onClick={() => scrollToSection(item)}
+                  key={item.id}
+                  onClick={() => scrollToSection(item.id)}
                   className="text-green-800 text-sm uppercase font-medium py-2 border-b border-gray-100 hover:text-green-600 transition-colors"
                 >
-                  {item.charAt(0).toUpperCase() + item.slice(1)}
+                  {item.label}
                 </button>
               ))}
+              <div className="pt-2">
+                <LanguageSwitcher />
+              </div>
             </nav>
           </div>
         </div>
